@@ -1,0 +1,7 @@
+<% include layout %>
+<h2>New Post</h2>
+<form action="/new" method="POST">
+  <input type="text" name="postTitle" placeholder="Title" required>
+  <textarea name="postContent" rows="5" placeholder="Content" required></textarea>
+  <button type="submit">Publish</button>
+</form>
